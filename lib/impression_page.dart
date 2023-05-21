@@ -16,8 +16,8 @@ class impressionPage extends StatelessWidget {
               child: Column(
                 children: [
                   const SizedBox(height: 200),
-                  const Text('Impression  : ', style: TextStyle(fontSize: 16)),
-                  const Text('Sangat unik dalam memberikan tugas sehingga membuat mahasiswa mau mempelajari flutter lebih dalam', style: TextStyle(fontSize: 16), textAlign: TextAlign.center,),
+                  const Text('Impression  : ', style: TextStyle(fontSize: 16, color: Colors.brown)),
+                  const Text('Sangat unik dalam memberikan tugas sehingga membuat mahasiswa mau mempelajari flutter lebih dalam', style: TextStyle(fontSize: 16, color: Colors.brown), textAlign: TextAlign.center,),
                   const SizedBox(height: 10),
                 ]
               ),
